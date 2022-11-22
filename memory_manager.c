@@ -92,7 +92,7 @@ int find_pte(struct task_struct *task){
                         no_accessed++;
                         //na++;
                     }            
-                    if(pte_present(pte) == 1){
+                    if(pte_present(pte) == 11){
                         counter++;
                     }else{
                         failed++;
